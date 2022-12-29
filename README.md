@@ -3,7 +3,7 @@ i.e. [frontend] + [backend] + [database]
 
 ## <span style="color:yellow">About</span>
 
-This web application is an internal business tool that can be used by business management personels to plan, build, and track their work force.
+This web application is an internal business tool that can be used by business management personel to plan, build, and track their work force.
 
 ## <span style="color:yellow">Coding Process</span>
 
