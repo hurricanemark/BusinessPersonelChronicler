@@ -1,0 +1,3 @@
+[submodule "journalclient"]
+	path = journalclient
+	url = https://github.com/hurricanemark/journalclient.git
