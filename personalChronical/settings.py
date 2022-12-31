@@ -13,6 +13,11 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 import os
 
+# importing the function from utils
+from django.core.management.utils import get_random_secret_key
+
+
+
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 MEDIA_URL = "/Photos/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "Photos")
@@ -28,13 +33,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
+# generating and printing the SECRET_KEY
+# print(get_random_secret_key())
+
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-wp&f9tb^2@12(4v3tcmq(88)@p%r4$e@u4q3*!cl_9005m10d9'
+SECRET_KEY = ''.join(['django-insecure-wp', get_random_secret_key()]);
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
