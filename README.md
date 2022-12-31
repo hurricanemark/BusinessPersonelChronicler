@@ -499,12 +499,18 @@ sudo ufw app list
 
 The last command should verify if nginx installed correctly.
 
-```Output
-Available applications:
-  Nginx Full
-  Nginx HTTP
-  Nginx HTTPS
-```
+
+-- 
+
+*Available applications:*
+
+  *Nginx Full*
+
+  *Nginx HTTP*
+
+  *Nginx HTTPS*
+
+--
 
 **Enable HTTP on port 80**
 
