@@ -9,4 +9,4 @@ class UsersSerializer(serializers.ModelSerializer):
 class EmploymentSerializer(serializers.ModelSerializer):
     class Meta:
         model=Employment
-        fields=('EmployeeId', 'EmployeeName', 'EmployeeTitle', 'DateOfJoining', 'PhotoFileName')
+        fields=('EmployeeId', 'EmployeeName', 'EmployeeTitle', 'DateOfJoining', 'EmployeeStatus', 'PhotoFileName')
