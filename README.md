@@ -15,6 +15,8 @@ This web application is an internal business tool that can be used by business m
 
 *Database:*<strong> SQLite3</strong>
 
+*Test & Deploy:*<strong> docker, docker-compose, nginx on WSL2</strong>
+
 
 ## Indices for this Document
 
