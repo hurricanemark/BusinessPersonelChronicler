@@ -5,6 +5,8 @@ i.e. [frontend] + [backend] + [database]
 
 This web application is an internal business tool that can be used by business management personel to plan, build, and track their work force.
 
+
+
 ## <span style="color:yellow">Coding Process</span>
 
 *Frontend:*<strong> ReactJS</strong>
@@ -12,6 +14,19 @@ This web application is an internal business tool that can be used by business m
 *Backend:*<strong> Python Django</strong>
 
 *Database:*<strong> SQLite3</strong>
+
+
+## Indices for this Document
+
+1. [Create the Python Django Backend Project](https://github.com/hurricanemark/BusinessPersonelChronicler#create-django-project)
+
+2. [Create the Frontend React Project](https://github.com/hurricanemark/BusinessPersonelChronicler#create-the-frontend-reactjs-project)
+
+3. [Dockerize Django Frontend App](https://github.com/hurricanemark/BusinessPersonelChronicler#dockerize-django)
+
+4. [Production deployment to NGINX](https://github.com/hurricanemark/BusinessPersonelChronicler#production-deployment-to-nginx-server-on-ubuntu)
+
+
 
 ## <span style="color:yellow">Install</span>
 
