@@ -4,6 +4,7 @@ i.e. [frontend] + [backend] + [database]
 ## <span style="color:yellow">About</span>
 
 This web application is an internal business tool that can be used by business management personel to plan, build, and track their work force.
+Data is presented in tabular format having parent-child one-to-one and one-to-many relationships.
 
 
 
